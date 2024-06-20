@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 16px;
+    }
+
+
+
+    .showPage {
+      background: url(https://static.toiimg.com/photo/105664127.cms)center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    .showPage h1 {
+      color: white;
+      font-size: 3.5rem;
+    }
+
+    .showPage p {
+      color: white;
+      font-weight: bolder;
+      font-size: 1.5rem;
+    }
+
+    .btn-1 {
+      background: #6f3939;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      font-size: .8rem;
+      margin-top: 20px;
+      transition: all .5s ease-in-out;
+    }
+
+    .btn-1:hover {
+      background: #cc4400;
+    }
+
+    #section-1 {
+      text-align: center;
+      padding: 40px;
+    }
+
+    #section-1 h1 {
+      margin-bottom: 20px;
+    }
+
+    #section-2 {
+      margin-bottom: 20px;
+    }
+
+    #section-2 h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .flex-columns {
+      display: flex;
+      padding: 20px;
+    }
+
+    footer {
+      min-height: 150px;
+      background: #f6f6f6;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+
+<body>
+
+  <header class="showPage">
+    <h1>VISAKHAPATNAM</h1>
+    <p>The City Of Destiny</p>
+    <button type="button" class="btn-1">Read About</button>
+  </header>
+
+  <section id="section-1">
+    <h1>About Visakhapatnam</h1>
+    <p>Visakhapatnam, nestled on the eastern coast of India, is a vibrant city renowned for its scenic beauty and
+      industrial prowess. Known as the "City of Destiny," it boasts a rich history dating back to ancient times, with
+      cultural influences from various dynasties and civilizations. Today, Visakhapatnam thrives as a hub of economic
+      activity, particularly in sectors like steel, fishing, and information technology. Its picturesque beaches, like
+      the famous Ramakrishna Beach and Rushikonda Beach, draw tourists and locals alike, offering serene sunsets and
+      water sports. The city's lush greenery and hilltop views from Kailasagiri add to its charm, making it a
+      sought-after destination for both business and leisure travelers.<br><b>Visakhaptnam-The City Of Destiny</b></p>
+  </section>
+
+  <section id="section-2">
+    <h1>Some Cool Atrractions</h1>
+    <div class="flex-columns">
+      <p><b>Beaches:</b> The city boasts picturesque beaches like Ramakrishna Beach and Rushikonda Beach, renowned for
+        serene sunsets, water sports, and vibrant local culture.</p>
+      <p><b>Submarine Museum:</b> Visakhapatnam hosts India's first submarine museum, INS Kursura, offering a unique
+        insight into naval history and attracting curious visitors.</p>
+      <p><b>Araku Valley:</b>A scenic retreat near Visakhapatnam, Araku Valley charms with lush landscapes, tribal
+        heritage, and coffee plantations, inviting travelers to unwind amidst natural beauty.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>A Landing Page By Bhaavya &copy;</p>
+  </footer>
+</body>
+
+</html>
